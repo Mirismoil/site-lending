@@ -67,7 +67,23 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-item__img {
+.hero-item__img{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img2{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img3{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img4{
+  padding-right: 30px;
+  cursor: pointer;
+}
+.hero-item__img5{
   padding-right: 30px;
   cursor: pointer;
 }
@@ -83,7 +99,7 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.menu-active, .menu-active2, .menu-active3, .menu-active4,.menu-active5 {
+.menu-active,.menu-active2,.menu-active3,.menu-active4,.menu-active5{
   display: block;
 }
 .list-item__text{

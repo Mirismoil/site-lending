@@ -32,34 +32,42 @@
 
 // buttun .hero-item__img
 // ul list=hero-item__list
+// let hero_img = document.querySelectorAll('.hero-item__img');
+// for(i in hero_img){
+
+//     console.log(hero_img[i])
+// }
+
+// var imgArray = [...hero_img];
+// imgArray.forEach(single =>{
+// let hero_list = document.querySelectorAll(".hero-item__list");
+
+//    hero_list.classList.toggle('.menu-active')
+// })
 document.querySelector('.hero-item__img').addEventListener('click', function(){
-    document.querySelector(".hero-item__list").classList.toggle('menu-active');
+    document.querySelector(".hero-item__list").classList.toggle('menu-active2');
 })
-document.querySelector('.hero-item__img').addEventListener('click', function(){
+document.querySelector('.hero-item__img2').addEventListener('click', function(){
     document.querySelector(".hero-item__list2").classList.toggle('menu-active2');
 })
-document.querySelector('.hero-item__img').addEventListener('click', function(){
+document.querySelector('.hero-item__img3').addEventListener('click', function(){
     document.querySelector(".hero-item__list3").classList.toggle('menu-active3');
 })
-document.querySelector('.hero-item__img').addEventListener('click', function(){
+document.querySelector('.hero-item__img4').addEventListener('click', function(){
     document.querySelector(".hero-item__list4").classList.toggle('menu-active4');
 })
-document.querySelector('.hero-item__img').addEventListener('click', function(){
+document.querySelector('.hero-item__img5').addEventListener('click', function(){
     document.querySelector(".hero-item__list5").classList.toggle('menu-active5');
 })
 function timeShover(){
     var timeNow = new Date();
-    
     document.querySelector(".hours").textContent = timeNow.getHours();
     document.querySelector(".minutes").textContent = timeNow.getMinutes();
     document.querySelector(".seconds").textContent = timeNow.getSeconds();
 }
-timeShover();
-
 setInterval(function(){
-    timeShover
+    timeShover()
 },1000);
-
-timeShover();
+;
 
 

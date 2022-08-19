@@ -449,6 +449,26 @@ img {
   cursor: pointer;
 }
 
+.hero-item__img2 {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.hero-item__img3 {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.hero-item__img4 {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.hero-item__img5 {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
 .hero-item__list, .hero-item__list2, .hero-item__list3, .hero-item__list4, .hero-item__list5 {
   width: 960px;
   margin: 0;
