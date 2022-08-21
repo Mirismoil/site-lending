@@ -1,13 +1,8 @@
-.site-main {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgba(0, 0, 0, 0.26) 0%,
-    rgba(0, 0, 0, 0.17) 100%
-  );
-  backdrop-filter: blur(35px);
+.hero-section{
   background-image: url("../../images/bg-img.png");
   background-repeat: no-repeat;
-  background-size: 100% 1400px ;
+  margin-top: -1px;
+  height: 1500px;
 }
 .hero {
   padding-bottom: 93px;

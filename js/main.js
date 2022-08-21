@@ -68,6 +68,6 @@ function timeShover(){
 setInterval(function(){
     timeShover()
 },1000);
-;
+
 
 
